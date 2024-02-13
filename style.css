@@ -4,4 +4,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background: url(images/background.png) no-repeat;
+    object-fit: cover;
+}
+
+#beetlemorph,
+#player,
+#player_jets,
+#rhinomorph,
+#boss {
+    display: none;
 }
